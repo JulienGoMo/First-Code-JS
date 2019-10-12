@@ -11,3 +11,8 @@ console.log(a*2);
 //input
 const first=prompt('Type your name');
 
+//convert celsius to fahrenheit
+const tempCel = Number(prompt('Enter you value'));
+let faren = (tempCel)*9/5+35;
+console.log(tempCel + 'degrees celicius equals to ' + faren + 'degrees Fahrenheit');
+alert(tempCel + ' degrees celicius equals to ' + faren + 'degrees Fahrenheit');
